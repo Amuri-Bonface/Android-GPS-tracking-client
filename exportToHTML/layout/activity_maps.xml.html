@@ -1,0 +1,89 @@
+<html>
+<head>
+<title>activity_maps.xml</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.ln { color: #999999; font-weight: normal; font-style: normal; }
+.s0 { color: rgb(0,0,0); }
+.s1 { color: rgb(0,0,0); }
+.s2 { color: rgb(0,0,128); font-weight: bold; }
+.s3 { color: rgb(0,0,255); font-weight: bold; }
+.s4 { color: rgb(0,128,0); font-weight: bold; }
+</style>
+</head>
+<BODY BGCOLOR="#ffffff">
+<TABLE CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#c0c0c0" >
+<TR><TD><CENTER>
+<FONT FACE="Arial, Helvetica" COLOR="#000000">
+activity_maps.xml</FONT>
+</center></TD></TR></TABLE>
+<pre>
+<span class="s0"> 
+ 
+</span><span class="s1">&lt;</span><span class="s2">RelativeLayout</span><span class="s1"> 
+ </span><span class="s3">xmlns:android=</span><span class="s4">&quot;http://schemas.android.com/apk/res/android&quot;</span><span class="s1"> 
+    </span><span class="s3">xmlns:tools=</span><span class="s4">&quot;http://schemas.android.com/tools&quot;</span><span class="s1"> 
+    </span><span class="s3">xmlns:app=</span><span class="s4">&quot;http://schemas.android.com/apk/res-auto&quot;</span><span class="s1"> 
+    </span><span class="s3">android:layout_width=</span><span class="s4">&quot;match_parent&quot;</span><span class="s1"> 
+    </span><span class="s3">android:layout_height=</span><span class="s4">&quot;match_parent&quot;</span><span class="s1"> 
+    </span><span class="s3">tools:context=</span><span class="s4">&quot;com.example.florence.mapsagain.MapsActivity&quot;</span><span class="s1">&gt;</span><span class="s0"> 
+ 
+ 
+ </span><span class="s1">&lt;</span><span class="s2">fragment</span><span class="s1"> 
+    </span><span class="s3">android:name=</span><span class="s4">&quot;com.google.android.gms.maps.StreetViewPanoramaFragment&quot;</span><span class="s1"> 
+    </span><span class="s3">android:id=</span><span class="s4">&quot;@+id/streetviewpanorama&quot;</span><span class="s1"> 
+    </span><span class="s3">android:layout_width=</span><span class="s4">&quot;0dp&quot;</span><span class="s1"> 
+    </span><span class="s3">android:layout_height=</span><span class="s4">&quot;0dp&quot;</span><span class="s1"> 
+    </span><span class="s3">tools:layout_editor_absoluteY=</span><span class="s4">&quot;8dp&quot;</span><span class="s1"> 
+     </span><span class="s3">tools:layout_editor_absoluteX=</span><span class="s4">&quot;8dp&quot;</span><span class="s1"> 
+     </span><span class="s3">android:layout_alignParentStart=</span><span class="s4">&quot;true&quot; </span><span class="s1">/&gt;</span><span class="s0"> 
+ 
+    </span><span class="s1">&lt;</span><span class="s2">TextView</span><span class="s1"> 
+        </span><span class="s3">android:id=</span><span class="s4">&quot;@+id/change_camera&quot;</span><span class="s1"> 
+        </span><span class="s3">android:layout_width=</span><span class="s4">&quot;107dp&quot;</span><span class="s1"> 
+        </span><span class="s3">android:layout_height=</span><span class="s4">&quot;70dp&quot;</span><span class="s1"> 
+        </span><span class="s3">android:text=</span><span class="s4">&quot;&quot;</span><span class="s1"> 
+        </span><span class="s3">android:layout_below=</span><span class="s4">&quot;@+id/streetviewpanorama&quot;</span><span class="s1"> 
+        </span><span class="s3">android:layout_alignParentEnd=</span><span class="s4">&quot;true&quot;</span><span class="s1"> 
+        </span><span class="s3">android:layout_marginEnd=</span><span class="s4">&quot;15dp&quot; </span><span class="s1">/&gt;</span><span class="s0"> 
+ 
+    </span><span class="s1">&lt;</span><span class="s2">TextView</span><span class="s1"> 
+        </span><span class="s3">android:id=</span><span class="s4">&quot;@+id/change_pano&quot;</span><span class="s1"> 
+        </span><span class="s3">android:layout_width=</span><span class="s4">&quot;107dp&quot;</span><span class="s1"> 
+        </span><span class="s3">android:layout_height=</span><span class="s4">&quot;70dp&quot;</span><span class="s1"> 
+        </span><span class="s3">android:layout_alignParentTop=</span><span class="s4">&quot;true&quot;</span><span class="s1"> 
+        </span><span class="s3">android:layout_centerHorizontal=</span><span class="s4">&quot;true&quot;</span><span class="s1"> 
+        </span><span class="s3">android:text=</span><span class="s4">&quot;&quot; </span><span class="s1">/&gt;</span><span class="s0"> 
+ 
+    </span><span class="s1">&lt;</span><span class="s2">TextView</span><span class="s1"> 
+        </span><span class="s3">android:id=</span><span class="s4">&quot;@+id/click_pano&quot;</span><span class="s1"> 
+        </span><span class="s3">android:layout_width=</span><span class="s4">&quot;107dp&quot;</span><span class="s1"> 
+        </span><span class="s3">android:layout_height=</span><span class="s4">&quot;70dp&quot;</span><span class="s1"> 
+        </span><span class="s3">android:text=</span><span class="s4">&quot;&quot;</span><span class="s1"> 
+        </span><span class="s3">android:layout_alignStart=</span><span class="s4">&quot;@+id/change_pano&quot;</span><span class="s1"> 
+        </span><span class="s3">android:layout_marginStart=</span><span class="s4">&quot;34dp&quot;</span><span class="s1"> 
+        </span><span class="s3">android:layout_alignBottom=</span><span class="s4">&quot;@+id/long_click_pano&quot;</span><span class="s1"> 
+        </span><span class="s3">android:layout_alignEnd=</span><span class="s4">&quot;@+id/change_camera&quot; </span><span class="s1">/&gt;</span><span class="s0"> 
+ 
+    </span><span class="s1">&lt;</span><span class="s2">TextView</span><span class="s1"> 
+        </span><span class="s3">android:id=</span><span class="s4">&quot;@+id/long_click_pano&quot;</span><span class="s1"> 
+        </span><span class="s3">android:layout_width=</span><span class="s4">&quot;107dp&quot;</span><span class="s1"> 
+        </span><span class="s3">android:layout_height=</span><span class="s4">&quot;70dp&quot;</span><span class="s1"> 
+        </span><span class="s3">android:layout_below=</span><span class="s4">&quot;@+id/change_pano&quot;</span><span class="s1"> 
+        </span><span class="s3">android:layout_toEndOf=</span><span class="s4">&quot;@+id/streetviewpanorama&quot;</span><span class="s1"> 
+        </span><span class="s3">android:text=</span><span class="s4">&quot;&quot; </span><span class="s1">/&gt;</span><span class="s0"> 
+ 
+   </span><span class="s1">&lt;</span><span class="s2">TextView</span><span class="s1"> 
+       </span><span class="s3">android:id=</span><span class="s4">&quot;@+id/textView4&quot;</span><span class="s1"> 
+       </span><span class="s3">android:layout_width=</span><span class="s4">&quot;wrap_content&quot;</span><span class="s1"> 
+       </span><span class="s3">android:layout_height=</span><span class="s4">&quot;wrap_content&quot;</span><span class="s1"> 
+       </span><span class="s3">android:layout_alignParentBottom=</span><span class="s4">&quot;true&quot;</span><span class="s1"> 
+       </span><span class="s3">android:layout_toStartOf=</span><span class="s4">&quot;@+id/change_pano&quot;</span><span class="s1"> 
+       </span><span class="s3">android:text=</span><span class="s4">&quot;@string/alani_technologies&quot; </span><span class="s1">/&gt;</span><span class="s0"> 
+ 
+ 
+</span><span class="s1">&lt;/</span><span class="s2">RelativeLayout</span><span class="s1">&gt;</span><span class="s0"> 
+ 
+</span></pre>
+</body>
+</html>
